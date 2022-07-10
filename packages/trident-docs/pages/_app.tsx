@@ -1,3 +1,4 @@
+import { TridentReact } from '@trident/react';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import './styles.css';
@@ -7,6 +8,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Welcome to trident-docs!</title>
+        <TridentReact />
       </Head>
       <main className="app">
         <Component {...pageProps} />
