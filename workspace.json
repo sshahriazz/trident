@@ -1,5 +1,10 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "trident-docs": "packages/trident-docs",
+    "trident-docs-e2e": "packages/trident-docs-e2e",
+    "trident-react": "packages/trident-react",
+    "trident-react-e2e": "packages/trident-react-e2e"
+  }
 }
